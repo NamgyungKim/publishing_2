@@ -92,6 +92,7 @@ const Wrap = styled.section`
   padding: 100px 0;
   background-position: 50% 100%;
   filter: saturate(1.7);
+  overflow: hidden;
 
   :before {
     display: block;
