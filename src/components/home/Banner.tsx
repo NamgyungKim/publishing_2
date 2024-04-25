@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 import bg1 from "../../assets/images/sld1-bg.jpeg";
 import bg2 from "../../assets/images/sld2-bg.jpg";
@@ -433,13 +433,13 @@ const Slider = styled.div`
   }
 `;
 const InnerWrap = styled.div``;
-const SliderObject1 = styled.div`
-  img {
-    position: absolute;
-  }
-`;
-const SliderObject2 = styled.div``;
-const SliderObject3 = styled.div``;
-const SliderObject4 = styled.div``;
+// const SliderObject1 = styled.div`
+//   img {
+//     position: absolute;
+//   }
+// `;
+// const SliderObject2 = styled.div``;
+// const SliderObject3 = styled.div``;
+// const SliderObject4 = styled.div``;
 
 export default Banner;

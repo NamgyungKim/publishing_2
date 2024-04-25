@@ -9,7 +9,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import TrustpilotLogo from "../../../assets/images/Trustpilot-logo.png";
 
-const Reviews = () => {
+const Reviews: React.FC = () => {
   const sliderRef = useRef(null);
   const [slidesPerView, setSlidesPerView] = useState<number>(3);
   const handlePrev = useCallback(() => {
@@ -28,7 +28,7 @@ const Reviews = () => {
 
   useEffect(() => {
     setSlidesViewNum();
-    window.addEventListener("resize", (e) => {
+    window.addEventListener("resize", () => {
       setSlidesViewNum();
     });
   }, []);

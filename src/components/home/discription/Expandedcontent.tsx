@@ -6,7 +6,7 @@ import geoblue from "../../../assets/images/geoblue.png";
 import geored from "../../../assets/images/geored.png";
 import geopurple from "../../../assets/images/geopurple.png";
 
-const Expandedcontent = () => {
+const Expandedcontent: React.FC = () => {
   return (
     <Wrap style={{ backgroundImage: `url(${MainImg})` }}>
       <Content className="layout">

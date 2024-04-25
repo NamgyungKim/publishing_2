@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-const Join = () => {
+const Join: React.FC = () => {
   return (
     <Wrap className="layout">
       <BackgroundVidio>
