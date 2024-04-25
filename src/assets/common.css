@@ -1,0 +1,39 @@
+p, span, div {
+    color: rgba(28, 9, 80, .75);
+}
+
+.layout {
+    width: 1180px;
+    margin: auto;
+    /*width: 100vw;*/
+    box-sizing: border-box;
+}
+
+@media (max-width: 1240px) {
+    .layout {
+        width: 960px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .layout {
+        width: auto;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+@media (max-width: 1240px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 770px) {
+}
+
+@media (max-width: 600px) {
+}
+
+@media (max-width: 479px) {
+}
