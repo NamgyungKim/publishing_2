@@ -36,7 +36,6 @@ const Banner: React.FC = () => {
 
     if (page <= 0) {
       clearInterval(timer);
-      console.log("타이머가 종료되었습니다.");
     }
 
     return () => {
@@ -365,12 +364,12 @@ const BgImage = styled.div`
     );
 
   &.show {
-    //opacity: 1;
+    opacity: 1;
     //transform: translateY(100px);
   }
 
   &.hide {
-    //opacity: 0;
+    opacity: 0;
     //visibility: hidden;
     //transform: translateY(-100px);
   }
